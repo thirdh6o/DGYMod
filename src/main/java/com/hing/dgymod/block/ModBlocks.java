@@ -1,7 +1,9 @@
 package com.hing.dgymod.block;
 
 import com.hing.dgymod.DGYMod;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -10,6 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
+    public static final Block DGY_BLOCK = register("dgy_block", new Block(AbstractBlock.Settings.copy(Blocks.SAND)));
     public static Block register(String id, Block block) {
         // 在注册方块的同时也将方块物品一起注册了
         registerBlockItems(id, block);
