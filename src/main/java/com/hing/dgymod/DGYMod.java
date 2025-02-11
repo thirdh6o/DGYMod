@@ -1,5 +1,8 @@
 package com.hing.dgymod;
 
+import com.hing.dgymod.block.ModBlocks;
+import com.hing.dgymod.item.ModItemGroups;
+import com.hing.dgymod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,7 +23,9 @@ public class DGYMod implements ModInitializer {
 		// Proceed with mild caution.
 
 
-
+		ModItems.registerModItems();
+		ModItemGroups.registerModItemGroups();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

@@ -28,7 +28,7 @@ public class ModBlocks {
                 new BlockItem(block, new Item.Settings()));
     }
 
-    // 不要忘了初始化注册方法
+    // 初始化注册方法
     public static void registerModBlocks() {
 
     }
