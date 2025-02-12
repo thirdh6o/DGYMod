@@ -22,7 +22,10 @@
   "rewards": {
     "recipes": [
       "dgymod:dgy_to_dgyblock",
-      "dgymod:dgyblock_to_dgy"
+      "dgymod:dgyblock_to_dgy",
+      "dgymod:dgy_cookie",
+      "dgymod:dgy_ingot_from_blasting",
+      "dgymod:dgy_ingot_from_smelting"
     ]
   },
   "sends_telemetry_event": false

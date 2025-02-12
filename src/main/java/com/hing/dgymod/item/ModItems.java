@@ -19,6 +19,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item DGY = registerItem("dgy", new Item(new Item.Settings()));
+    public static final Item DGY_INGOT = registerItem("dgy_ingot", new Item(new Item.Settings()));
+
 
     //食物写法
     public static final Item DGY_COOKIE = registerItem("dgy_cookie", new Item(new Item.Settings().food(ModFoodComponents.DGY_COOKIE)));
@@ -67,9 +69,9 @@ public class ModItems {
     private static void addItemToItemGroup1(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.DGY_BLOCK);
     }
-//    private static void addItemToItemGroup2(FabricItemGroupEntries entries) {
-//        entries.add(CARDBOARD);
-//    }
+    private static void addItemToItemGroup2(FabricItemGroupEntries entries) {
+      entries.add(DGY_INGOT);
+    }
 
     public static void registerModItems() {
         /* 这里其实啥也不用写，就直接在模组主类中调用这个方法即可
@@ -81,6 +83,6 @@ public class ModItems {
 
         // 这里是加入原版物品栏的两个例子，模组自制物品栏在ModItemGroups中
           ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModItems::addItemToItemGroup1);
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemToItemGroup2);
+         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemToItemGroup2);
     }
 }
