@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dgy",
+  "ingredients": [
+    {
+      "item": "dgymod:dgy_block"
+    }
+  ],
+  "result": {
+    "item": "dgymod:dgy",
+    "count": 9
+  }
+}

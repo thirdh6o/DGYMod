@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dgy",
+  "key": {
+    "#": {
+      "item": "dgymod:dgy"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "dgymod:dgy_block"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dgy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dgymod:dgy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_dgy"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dgymod:dgy_to_dgyblock",
+      "dgymod:dgyblock_to_dgy"
+    ]
+  },
+  "sends_telemetry_event": false
+}
+
