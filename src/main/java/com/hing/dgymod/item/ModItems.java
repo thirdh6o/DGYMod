@@ -20,6 +20,8 @@ public class ModItems {
 
     public static final Item DGY = registerItem("dgy", new Item(new Item.Settings()));
 
+    //食物写法
+    public static final Item DGY_COOKIE = registerItem("dgy_cookie", new Item(new Item.Settings().food(ModFoodComponents.DGY_COOKIE)));
 
 
 

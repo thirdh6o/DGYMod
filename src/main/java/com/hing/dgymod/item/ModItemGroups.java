@@ -36,6 +36,7 @@ public class ModItemGroups {
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.DGY);
                             entries.add(ModBlocks.DGY_BLOCK);
+                            entries.add(ModItems.DGY_COOKIE);
                         }).build());
     }
 }

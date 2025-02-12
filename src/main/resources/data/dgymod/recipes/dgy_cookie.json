@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dgy",
+  "ingredients": [
+    {
+      "item": "dgymod:dgy",
+      "count": 1
+    },
+    {
+      "item": "minecraft:wheat",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "dgymod:dgy_cookie",
+    "count": 3
+  }
+}
