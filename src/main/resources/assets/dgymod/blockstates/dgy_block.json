@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dgy_mod:block/dgy_block"
+      "model": "dgymod:block/dgy_block"
     }
   }
 }
