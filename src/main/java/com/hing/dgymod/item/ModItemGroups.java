@@ -1,6 +1,7 @@
 package com.hing.dgymod.item;
 
 import com.hing.dgymod.DGYMod;
+import com.hing.dgymod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -24,7 +25,7 @@ public class ModItemGroups {
 
     public static void registerModItemGroups() {
         // 这里本来是不用写什么的，我们可以将注册语句写在这里
-        // 在原始的注册语句中，我们可以看到一个Registry<ItemGroup>类型的registry，这个其实就是注册表类型，可直接调用原版注册表的东西
+        // 在原始注册语句中，我们可以看到一个Registry<ItemGroup>类型的registry，这个其实就是注册表类型，可直接调用原版注册表的东西
         // 注册参数分别是注册表项、注册键、物品栏（其中物品栏创建参数可再分为物品栏位置、展示名字、图标文件、物品栏内容等，不要忘了最后的build）
         Registry.register(
                 Registries.ITEM_GROUP,
@@ -34,7 +35,7 @@ public class ModItemGroups {
                         .icon(() -> new ItemStack(ModItems.DGY))
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.DGY);
-
+                            entries.add(ModBlocks.DGY_BLOCK);
                         }).build());
     }
 }

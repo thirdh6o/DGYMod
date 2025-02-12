@@ -1,6 +1,7 @@
 package com.hing.dgymod.item;
 
 import com.hing.dgymod.DGYMod;
+import com.hing.dgymod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.BlockItem;
@@ -61,9 +62,9 @@ public class ModItems {
 
 
     // 两个加入原版物品栏的例子
-//    private static void addItemToItemGroup(FabricItemGroupEntries entries) {
-//        entries.add(ICE_ETHER);
-//    }
+    private static void addItemToItemGroup1(FabricItemGroupEntries entries) {
+        entries.add(ModBlocks.DGY_BLOCK);
+    }
 //    private static void addItemToItemGroup2(FabricItemGroupEntries entries) {
 //        entries.add(CARDBOARD);
 //    }
@@ -77,7 +78,7 @@ public class ModItems {
 
 
         // 这里是加入原版物品栏的两个例子，模组自制物品栏在ModItemGroups中
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModItems::addItemToItemGroup);
+          ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModItems::addItemToItemGroup1);
 //        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemToItemGroup2);
     }
 }

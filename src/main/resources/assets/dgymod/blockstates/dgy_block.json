@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dgy_mod:block/dgy_block"
+    }
+  }
+}
