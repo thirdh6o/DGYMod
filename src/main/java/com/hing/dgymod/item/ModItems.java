@@ -20,7 +20,7 @@ public class ModItems {
 
     public static final Item DGY = registerItem("dgy", new Item(new Item.Settings()));
     public static final Item DGY_INGOT = registerItem("dgy_ingot", new Item(new Item.Settings()));
-
+    public static final Item DGY_COAL = registerItem("dgy_coal", new Item(new Item.Settings()));
 
     //食物写法
     public static final Item DGY_COOKIE = registerItem("dgy_cookie", new Item(new Item.Settings().food(ModFoodComponents.DGY_COOKIE)));
@@ -70,7 +70,11 @@ public class ModItems {
         entries.add(ModBlocks.DGY_BLOCK);
     }
     private static void addItemToItemGroup2(FabricItemGroupEntries entries) {
-      entries.add(DGY_INGOT);
+       entries.add(DGY_INGOT);
+    }
+
+    private static void addItemToItemGroup3(FabricItemGroupEntries entries) {
+        entries.add(DGY_COAL);
     }
 
     public static void registerModItems() {
@@ -83,6 +87,7 @@ public class ModItems {
 
         // 这里是加入原版物品栏的两个例子，模组自制物品栏在ModItemGroups中
           ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModItems::addItemToItemGroup1);
-         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemToItemGroup2);
+          ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemToItemGroup2);
+          ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemToItemGroup3);
     }
 }

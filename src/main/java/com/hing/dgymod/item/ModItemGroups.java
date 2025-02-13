@@ -38,6 +38,7 @@ public class ModItemGroups {
                             entries.add(ModBlocks.DGY_BLOCK);
                             entries.add(ModItems.DGY_COOKIE);
                             entries.add(ModItems.DGY_INGOT);
+                            entries.add(ModItems.DGY_COAL);
                         }).build());
     }
 }
