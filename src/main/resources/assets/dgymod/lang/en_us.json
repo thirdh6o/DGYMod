@@ -4,5 +4,6 @@
   "block.dgymod.dgy_block": "Gutter Oil Block",
   "item.dgymod.dgy_cookie": "Gutter Oil Cookie",
   "item.dgymod.dgy_ingot": "Gutter Oil Ingot",
-  "item.dgymod.dgy_coal": "Gutter Oil Coal"
+  "item.dgymod.dgy_coal": "Gutter Oil Coal",
+  "block.dgymod.dgy_ore": "Gutter Oil Ore"
 }

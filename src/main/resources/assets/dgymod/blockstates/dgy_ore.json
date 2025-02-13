@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dgymod:block/dgy_ore"
+    }
+  }
+}

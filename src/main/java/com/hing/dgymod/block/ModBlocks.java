@@ -13,6 +13,9 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block DGY_BLOCK = register("dgy_block", new Block(AbstractBlock.Settings.copy(Blocks.SAND)));
+    public static final Block DGY_ORE = register("dgy_ore", new Block(AbstractBlock.Settings.copy(Blocks.IRON_ORE)));
+
+
     public static Block register(String id, Block block) {
         // 在注册方块的同时也将方块物品一起注册了
         registerBlockItems(id, block);

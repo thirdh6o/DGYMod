@@ -4,5 +4,6 @@
   "block.dgymod.dgy_block": "地沟油块",
   "item.dgymod.dgy_cookie": "地沟油曲奇",
   "item.dgymod.dgy_ingot": "地沟油锭",
-  "item.dgymod.dgy_coal": "地沟油强化煤炭"
+  "item.dgymod.dgy_coal": "地沟油煤炭",
+  "block.dgymod.dgy_ore": "地沟油煤炭矿石"
 }
