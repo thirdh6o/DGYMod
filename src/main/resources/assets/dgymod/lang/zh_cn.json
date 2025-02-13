@@ -6,5 +6,10 @@
   "item.dgymod.dgy_ingot": "地沟油锭",
   "item.dgymod.dgy_coal": "地沟油煤炭",
   "block.dgymod.dgy_ore": "地沟油煤炭矿石",
-  "item.dgymod.dgy_ingot_plus": "地沟油锭+"
+  "item.dgymod.dgy_ingot_plus": "地沟油锭+",
+  "item.dgymod.dgy_sword": "地沟油之剑",
+  "item.dgymod.dgy_pickaxe": "地沟油之镐",
+  "item.dgymod.dgy_axe": "地沟油之斧",
+  "item.dgymod.dgy_shovel": "地沟油之铲",
+  "item.dgymod.dgy_hoe": "地沟油之锄"
 }

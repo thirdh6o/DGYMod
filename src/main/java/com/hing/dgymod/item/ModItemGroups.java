@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
 
     // 注册物品栏的注册键
-    public static final RegistryKey<ItemGroup> TUTORIAL_GROUP = register("tutorial_group");
+    public static final RegistryKey<ItemGroup> TUTORIAL_GROUP = register("dgy_group");
 
     // 原版的注册方法，当然我们要改命名空间（再回到上面注册物品栏的注册键）
     private static RegistryKey<ItemGroup> register(String id) {
@@ -41,6 +41,11 @@ public class ModItemGroups {
                             entries.add(ModItems.DGY_COAL);
                             entries.add(ModBlocks.DGY_ORE);
                             entries.add(ModItems.DGY_INGOT_PLUS);
+                            entries.add(ModItems.DGY_AXE);
+                            entries.add(ModItems.DGY_PICKAXE);
+                            entries.add(ModItems.DGY_SHOVEL);
+                            entries.add(ModItems.DGY_SWORD);
+                            entries.add(ModItems.DGY_HOE);
                         }).build());
     }
 }

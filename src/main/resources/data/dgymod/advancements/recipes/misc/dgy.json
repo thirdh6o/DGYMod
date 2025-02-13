@@ -22,7 +22,12 @@
   "rewards": {
     "recipes": [
       "dgymod:dgy_ingot_plus",
-      "dgymod:dgy_cookie"
+      "dgymod:dgy_cookie",
+      "dgymod:dgy_kits1",
+      "dgymod:dgy_kits2",
+      "dgymod:dgy_kits3",
+      "dgymod:dgy_kits4",
+      "dgymod:dgy_kits5"
     ]
   },
   "sends_telemetry_event": false

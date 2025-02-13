@@ -6,5 +6,10 @@
   "item.dgymod.dgy_ingot": "Gutter Oil Ingot",
   "item.dgymod.dgy_coal": "Gutter Oil Coal",
   "block.dgymod.dgy_ore": "Gutter Oil Ore",
-  "item.dgymod.dgy_ingot_plus": "Gutter Oil Ingot+"
+  "item.dgymod.dgy_ingot_plus": "Gutter Oil Ingot+",
+  "item.dgymod.dgy_sword": "Gutter Oil Sword",
+  "item.dgymod.dgy_pickaxe": "Gutter Oil Pickaxe",
+  "item.dgymod.dgy_axe": "Gutter Oil Axe",
+  "item.dgymod.dgy_shovel": "Gutter Oil Shovel",
+  "item.dgymod.dgy_hoe": "Gutter Oil Hoe"
 }

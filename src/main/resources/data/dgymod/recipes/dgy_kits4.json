@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dgy5",
+  "key": {
+    "#": {
+      "item": "dgymod:dgy_ingot_plus"
+    },
+    "X": {
+      "item": "minecraft:netherite_hoe"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "dgymod:dgy_hoe"
+  },
+  "show_notification": true
+}

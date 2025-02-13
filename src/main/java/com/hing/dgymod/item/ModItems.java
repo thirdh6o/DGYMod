@@ -4,9 +4,7 @@ import com.hing.dgymod.DGYMod;
 import com.hing.dgymod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -23,12 +21,22 @@ public class ModItems {
     public static final Item DGY_COAL = registerItem("dgy_coal", new Item(new Item.Settings()));
     public static final Item DGY_INGOT_PLUS = registerItem("dgy_ingot_plus", new Item(new Item.Settings()));
 
-    //食物写法
+    //食物注册
     public static final Item DGY_COOKIE = registerItem("dgy_cookie", new Item(new Item.Settings().food(ModFoodComponents.DGY_COOKIE)));
 
 
 
-
+    //工具注册
+    public static final Item DGY_SWORD = registerItems("dgy_sword", new SwordItem(ModToolMaterials.DGY_INGOT_PLUS,
+            22, -0.1f, new Item.Settings().fireproof()));
+    public static final Item DGY_SHOVEL = registerItems("dgy_shovel", new ShovelItem(ModToolMaterials.DGY_INGOT_PLUS,
+            7, -0.1f, new Item.Settings().fireproof()));
+    public static final Item DGY_PICKAXE = registerItems("dgy_pickaxe", new PickaxeItem(ModToolMaterials.DGY_INGOT_PLUS,
+            8, -0.1f, new Item.Settings().fireproof()));
+    public static final Item DGY_AXE = registerItems("dgy_axe", new AxeItem(ModToolMaterials.DGY_INGOT_PLUS,
+            20, -0.1f, new Item.Settings().fireproof()));
+    public static final Item DGY_HOE = registerItems("dgy_hoe", new HoeItem(ModToolMaterials.DGY_INGOT_PLUS,
+            -4, 0.0f, new Item.Settings().fireproof()));
 
 
 
@@ -75,7 +83,15 @@ public class ModItems {
     }
 
     private static void addItemToItemGroup3(FabricItemGroupEntries entries) {
-        entries.add(DGY_COAL);
+        entries.add(DGY_SHOVEL);
+        entries.add(DGY_AXE);
+        entries.add(DGY_PICKAXE);
+        entries.add(DGY_HOE);
+    }
+
+
+    private static void addItemToItemGroup4(FabricItemGroupEntries entries) {
+        entries.add(DGY_SWORD);
     }
 
     public static void registerModItems() {
@@ -89,6 +105,8 @@ public class ModItems {
         // 这里是加入原版物品栏的两个例子，模组自制物品栏在ModItemGroups中
           ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModItems::addItemToItemGroup1);
           ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemToItemGroup2);
-          ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemToItemGroup3);
+          ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemToItemGroup3);
+          ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemToItemGroup4);
+
     }
 }
