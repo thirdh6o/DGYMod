@@ -21,6 +21,7 @@ public class ModItems {
     public static final Item DGY = registerItem("dgy", new Item(new Item.Settings()));
     public static final Item DGY_INGOT = registerItem("dgy_ingot", new Item(new Item.Settings()));
     public static final Item DGY_COAL = registerItem("dgy_coal", new Item(new Item.Settings()));
+    public static final Item DGY_INGOT_PLUS = registerItem("dgy_ingot_plus", new Item(new Item.Settings()));
 
     //食物写法
     public static final Item DGY_COOKIE = registerItem("dgy_cookie", new Item(new Item.Settings().food(ModFoodComponents.DGY_COOKIE)));

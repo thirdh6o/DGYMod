@@ -40,6 +40,7 @@ public class ModItemGroups {
                             entries.add(ModItems.DGY_INGOT);
                             entries.add(ModItems.DGY_COAL);
                             entries.add(ModBlocks.DGY_ORE);
+                            entries.add(ModItems.DGY_INGOT_PLUS);
                         }).build());
     }
 }
