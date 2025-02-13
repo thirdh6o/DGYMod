@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "dgy",
+  "category": "misc",
+  "group": "dgy2",
   "key": {
     "#": {
       "item": "dgymod:dgy_ingot"

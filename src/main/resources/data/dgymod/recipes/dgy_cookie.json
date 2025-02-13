@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "dgy",
+  "group": "dgy1",
   "ingredients": [
     {
       "item": "dgymod:dgy",

@@ -21,12 +21,8 @@
   ],
   "rewards": {
     "recipes": [
-      "dgymod:dgy_to_dgyblock",
-      "dgymod:dgyblock_to_dgy",
-
-      "dgymod:dgy_ingot_from_blasting",
-      "dgymod:dgy_ingot_from_smelting"
-
+      "dgymod:dgy_ingot_plus",
+      "dgymod:dgy_cookie"
     ]
   },
   "sends_telemetry_event": false
