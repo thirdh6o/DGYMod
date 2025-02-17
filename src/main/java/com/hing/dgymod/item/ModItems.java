@@ -39,6 +39,16 @@ public class ModItems {
             -4, 0.0f, new Item.Settings().fireproof()));
 
 
+    // 盔甲
+    public static final Item DGY_HELMET = registerItems("dgy_helmet",
+            new ArmorItem(ModArmorMaterials.DGY_INGOT_PLUS, ArmorItem.Type.HELMET, new Item.Settings()));
+    public static final Item DGY_CHESTPLATE = registerItems("dgy_chestplate",
+            new ArmorItem(ModArmorMaterials.DGY_INGOT_PLUS, ArmorItem.Type.CHESTPLATE, new Item.Settings()));
+    public static final Item DGY_LEGGINGS = registerItems("dgy_leggings",
+            new ArmorItem(ModArmorMaterials.DGY_INGOT_PLUS, ArmorItem.Type.LEGGINGS, new Item.Settings()));
+    public static final Item DGY_BOOTS = registerItems("dgy_boots",
+            new ArmorItem(ModArmorMaterials.DGY_INGOT_PLUS, ArmorItem.Type.BOOTS, new Item.Settings()));
+
 
 
 
@@ -90,9 +100,21 @@ public class ModItems {
     }
 
 
-    private static void addItemToItemGroup4(FabricItemGroupEntries entries) {
+
+
+
+
+
+
+    private static void addItemToItemGroup5(FabricItemGroupEntries entries) {
+        entries.add(DGY_HELMET);
+        entries.add(DGY_CHESTPLATE);
+        entries.add(DGY_LEGGINGS);
+        entries.add(DGY_BOOTS);
         entries.add(DGY_SWORD);
     }
+
+
 
     public static void registerModItems() {
         /* 这里其实啥也不用写，就直接在模组主类中调用这个方法即可
@@ -106,7 +128,8 @@ public class ModItems {
           ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModItems::addItemToItemGroup1);
           ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemToItemGroup2);
           ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemToItemGroup3);
-          ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemToItemGroup4);
+          ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemToItemGroup5);
+
 
     }
 }
