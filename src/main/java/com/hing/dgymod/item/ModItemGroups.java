@@ -46,6 +46,10 @@ public class ModItemGroups {
                             entries.add(ModItems.DGY_SHOVEL);
                             entries.add(ModItems.DGY_SWORD);
                             entries.add(ModItems.DGY_HOE);
+                            entries.add(ModItems.DGY_HELMET);
+                            entries.add(ModItems.DGY_CHESTPLATE);
+                            entries.add(ModItems.DGY_LEGGINGS);
+                            entries.add(ModItems.DGY_BOOTS);
                         }).build());
     }
 }
