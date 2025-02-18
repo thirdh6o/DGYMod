@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dgy6",
+  "key": {
+    "#": {
+      "item": "dgymod:dgy_ingot_plus"
+    },
+    "X": {
+      "item": "minecraft:netherite_chestplate"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "dgymod:dgy_chestplate"
+  },
+  "show_notification": true
+}

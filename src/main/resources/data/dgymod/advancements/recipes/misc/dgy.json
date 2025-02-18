@@ -27,7 +27,11 @@
       "dgymod:dgy_kits2",
       "dgymod:dgy_kits3",
       "dgymod:dgy_kits4",
-      "dgymod:dgy_kits5"
+      "dgymod:dgy_kits5",
+      "dgymod:dgy_kits6",
+      "dgymod:dgy_kits7",
+      "dgymod:dgy_kits8",
+      "dgymod:dgy_kits9"
     ]
   },
   "sends_telemetry_event": false

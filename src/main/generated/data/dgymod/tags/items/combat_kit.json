@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dgymod:dgy_helmet",
+    "dgymod:dgy_chestplate",
+    "dgymod:dgy_leggings",
+    "dgymod:dgy_boots"
+  ]
+}

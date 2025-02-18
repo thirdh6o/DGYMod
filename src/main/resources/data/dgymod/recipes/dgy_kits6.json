@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dgy6",
+  "key": {
+    "#": {
+      "item": "dgymod:dgy_ingot_plus"
+    },
+    "X": {
+      "item": "minecraft:netherite_helmet"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "dgymod:dgy_helmet"
+  },
+  "show_notification": true
+}
