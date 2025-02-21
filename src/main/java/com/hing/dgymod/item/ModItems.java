@@ -101,11 +101,6 @@ public class ModItems {
 
 
 
-
-
-
-
-
     private static void addItemToItemGroup5(FabricItemGroupEntries entries) {
         entries.add(DGY_HELMET);
         entries.add(DGY_CHESTPLATE);
